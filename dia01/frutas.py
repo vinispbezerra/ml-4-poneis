@@ -1,7 +1,7 @@
 # %%
 import pandas as pd
 
-df = pd.read_excel("../data/dados_frutas.xlsx")
+df = pd.read_excel("C:/Users/JOSEP/Desktop/dados/dados_frutas.xlsx")
 df
 
 # %%
@@ -49,3 +49,4 @@ arvore.predict([[0,1,1,1]])
 
 probas = arvore.predict_proba([[1,1,1,1]])[0]
 pd.Series(probas, index=arvore.classes_)
+# %%

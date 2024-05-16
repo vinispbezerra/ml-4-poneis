@@ -1,7 +1,7 @@
 # %%
 import pandas as pd
 
-df = pd.read_excel("../data/dados_cerveja.xlsx")
+df = pd.read_excel("C:/Users/JOSEP/Desktop/dados/dados_cerveja.xlsx")
 df
 
 # %%
