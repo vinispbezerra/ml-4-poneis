@@ -1,7 +1,7 @@
 # %%
 import pandas as pd
 
-df = pd.read_parquet("../data/dados_clones.parquet")
+df = pd.read_parquet("C:/Users/JOSEP/Desktop/dados/dados_clones.parquet")
 df
 # %%
 ## Como podemos descobrir onde está o problema?
